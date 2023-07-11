@@ -5,6 +5,14 @@
     --cor03: #323232;
     --cor-default: #ffffff;
 }
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--cor03);
+}
+::-webkit-scrollbar-thumb {
+    background-color:var(--cor01);
+    border-radius: 8px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -81,6 +89,7 @@ header {
 }
 #services {
     padding: 0px 20px;
+    background-color: #ececec;
 }
 #services h2 {
     padding: 50px 0px;
