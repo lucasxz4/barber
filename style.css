@@ -105,6 +105,9 @@ header {
     justify-content: space-around;
     padding: 10px;
 }
+.cortes img {
+    width: 100%;
+}
 .informationDetails h4 {
     font-size: 1.4em;
     font-weight: 500;
@@ -113,7 +116,7 @@ header {
     border: none;
     color: var(--cor-default);
     border-radius: 8px;
-    padding: 10px;
+    padding: 15px;
     background-color: var(--cor01);
     font-family: 'Sora';
 }
@@ -149,7 +152,7 @@ footer {
 }
 .whatsapp {
     position: absolute;
-    right: 0;
+    right: 20px;
     bottom: 50px;
     width: 50px;
     height: 50px;
