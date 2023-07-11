@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+:root {
+    --cor01: #D94140;
+    --cor02: #06121E;
+    --cor03: #323232;
+    --cor-default: #ffffff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Sora';
+}
+header {
+    background-image: linear-gradient(to bottom, rgba(6, 18, 18, 0.1), #06121e), url(assets/bg.svg);
+    background-position: left center;
+    background-size: cover;
+}
+.navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    padding: 30px 0px;
+}
+.navegacao a {
+    color: var(--cor-default);
+}
+.navegacao a i {
+    font-size: 1.8em;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 80px 0px;
+}
+.h1P h1 {
+    color: var(--cor-default);
+    text-align: center;
+    font-size: 1.7em;
+    padding: 0px 20px 30px 20px;
+    line-height: 1.5;
+}
+.h1P p {
+    color: var(--cor-default);
+    text-align: center;
+}
+.btnAgendamento {
+    text-align: center;
+    padding: 40px 0px;
+}
+.btnAgendamento button {
+    padding: 10px;
+    font-size: 1.4em;
+    background-color: var(--cor01);
+    color: var(--cor-default);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Sora';
+}
+#about {
+    background-color: var(--cor02);
+    padding: 50px 20px;
+}
+#about .imgs img {
+    width: 100%;
+}
+.textAbout h2 {
+    color: var(--cor-default);
+    font-size: 2em;
+    padding: 20px 0px;
+}
+.textAbout p {
+    color: var(--cor-default);
+    line-height: 1.5;
+}
+.funcio {
+    padding: 30px 0px 20px 0px;
+}
+#services {
+    padding: 0px 20px;
+}
+#services h2 {
+    padding: 50px 0px;
+    font-size: 2em;
+    text-align: center;
+}
+#services p {
+    text-align: center;;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    color: var(--cor03);
+}
+#card {
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px #979797e7;
+    margin: 40px 0px;
+    overflow: hidden;
+}
+.informationDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.informationDetails h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.informationDetails button {
+    border: none;
+    color: var(--cor-default);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: var(--cor01);
+    font-family: 'Sora';
+}
+#location {
+    padding: 0px 20px;
+}
+#location h2 {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 2rem;
+}
+iframe {
+    width: 100%;
+}
+footer {
+    background-color: #06121E;
+    position: relative;
+}
+.midias {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    padding: 20px 0px;
+    font-size: 2rem;
+}
+.midias a {
+    color: var(--cor-default);
+}
+.logoFooter {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.whatsapp {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+footer p {
+    color: var(--cor-default);
+    font-size: 0.7em;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
