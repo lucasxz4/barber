@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Document</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navegacao">
+        <nav class="navegacao" data-aos="fade-down" data-aos-duration="1000"data-aos-anchor-placement="center-bottom">
             <a href="">
                 <i class='bx bxl-instagram'></i>
             </a>
@@ -21,28 +23,29 @@
                 <i class='bx bxl-facebook-circle'></i>
             </a>
             <a href="">
-                 <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-twitter'></i>
             </a>
         </nav>
         <div class="logo">
-            <img src="assets/logo.svg" alt="Logo">
+            <img src="assets/logo.svg" alt="Logo" data-aos="zoom-in" data-aos-duration="1500">
         </div>
         <div class="h1P">
             <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE.</h1>
             <p>Horário de funcionamento 09:00 ás 19:00</p>
         </div>
         <div class="btnAgendamento">
-            <button><span>Agendar horário</span></button>
+            <button data-aos="zoom-in-up"><span>Agendar horário</span></button>
         </div>
     </header>
 
     <section id="about">
-        <section class="imgs">
+        <section class="imgs" data-aos="zoom-out-right" data-aos-delay="250">
             <img src="assets/images.svg" alt="Imagens, barbearia">
         </section>
-        <div class="textAbout">
+        <div class="textAbout" data-aos="zoom-out-left" data-aos-delay="250">
             <h2>SOBRE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquid reprehenderit unde explicabo ea temporibus harum non consequuntur beatae ipsa doloribus esse, nam saepe dolor excepturi est.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi aliquid reprehenderit unde explicabo ea
+                temporibus harum non consequuntur beatae ipsa doloribus esse, nam saepe dolor excepturi est.</p>
             <p class="funcio">
                 Horário de funcionamento 09:00 ás 19:00
             </p>
@@ -50,10 +53,14 @@
     </section>
 
     <section id="services">
-        <h2>SERVIÇOS</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem molestiae nesciunt minus expedita officia magnam veniam eaque aspernatur aperiam iure nihil sed facilis similique, ipsam, reiciendis, eveniet illum.</p>
+        <h2>SERVIÇOS
+        </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+            molestiae nesciunt minus expedita officia
+            magnam veniam eaque aspernatur aperiam iure nihil sed facilis similique, ipsam, reiciendis, eveniet illum.
+        </p>
         <div class="cortes">
-            <div class="cardImg1" id="card">
+            <div class="cardImg1" id="card" data-aos="fade-right" data-aos-delay="150">
                 <img src="assets/corte1.png" alt="Corte 1">
                 <div class="informationDetails">
                     <h4>Corte de cabelo</h4>
@@ -62,7 +69,7 @@
                     </button>
                 </div>
             </div>
-            <div class="cardImg2" id="card">
+            <div class="cardImg2" id="card" data-aos="fade-right" data-aos-delay="350">
                 <img src="assets/corte2.png" alt="Corte 2">
                 <div class="informationDetails">
                     <h4>Barba completa</h4>
@@ -71,7 +78,7 @@
                     </button>
                 </div>
             </div>
-            <div class="cardImg3" id="card">
+            <div class="cardImg3" id="card" data-aos="fade-right" data-aos-delay="550">
                 <img src="assets/corte3.png" alt="Corte 3">
                 <div class="informationDetails">
                     <h4>Cabelo e barba</h4>
@@ -85,7 +92,10 @@
 
     <section id="location">
         <h2>Venha conhecer</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.1822223182876!2d-54.59052492378695!3d-20.457707554959924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e8954ac0b10d%3A0x7149aba0cb5688b8!2sShopping%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1689080510413!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.1822223182876!2d-54.59052492378695!3d-20.457707554959924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e8954ac0b10d%3A0x7149aba0cb5688b8!2sShopping%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1689080510413!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer>
@@ -97,15 +107,18 @@
                 <i class='bx bxl-facebook-circle'></i>
             </a>
             <a href="">
-                 <i class='bx bxl-twitter'></i>
+                <i class='bx bxl-twitter'></i>
             </a>
         </div>
         <div class="logoFooter">
             <img src="assets/logo.svg" alt="Logo">
         </div>
-        <img src="assets/whatssapp.svg" alt="Svg whatsapp" class="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=88981458537&text=Ol%C3%A1" target="_blank"><img data-aos="zoom-out-left" data-aos-duration="900"
+                src="assets/whatssapp.svg" alt="Svg whatsapp" class="whatsapp" title="Agendamento"></a>
         <p>Copyright &copy; | Dev Barbearia | Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
